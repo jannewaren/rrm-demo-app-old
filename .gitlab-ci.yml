@@ -1,0 +1,11 @@
+stages:
+  - test
+
+image: ruby:2.2.5
+
+rspec:
+  before_script:
+    - bundle install
+  script:
+    - echo "Wonder why Github has a .gitlab-ci.yml file? Me too"
+    - this is just a demo
